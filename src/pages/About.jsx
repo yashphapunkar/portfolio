@@ -50,9 +50,7 @@ const About = () => {
                     {experiences.map((experience) => {
                         return <VerticalTimelineElement
                                 key={experience.company_name}
-                                // date={experience.date}
                                 icon={<div className="flex justify-center items-center w-full h-full">
-                                    <img src={experience.icon} alt="" className="w-[60%] h-[60%] object-contain"/>
                                 </div>}
                                 iconStyle={{background: experience.iconBg}}
                                 contentStyle={{
